@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StringCalculatorATDD
 {
-    public class Class1
+    public class SpecStringCalculator
     {
     }
 }
