@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace StringCalculatorATDD
 {
-    public class SpecStringCalculator
+    public interface IStringCalculator
     {
+        double Calculate(String input);
     }
 }
