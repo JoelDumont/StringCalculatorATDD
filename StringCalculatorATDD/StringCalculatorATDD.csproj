@@ -42,8 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddOperator.cs" />
-    <Compile Include="Converter.cs" />
-    <Compile Include="Converter1.cs" />
     <Compile Include="IOperator.cs" />
     <Compile Include="IStringCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

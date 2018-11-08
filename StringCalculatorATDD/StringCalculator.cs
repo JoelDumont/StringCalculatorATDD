@@ -6,12 +6,10 @@ namespace StringCalculatorATDD
     public class StringCalculator : IStringCalculator
     {
         private IOperator addOperator;
-        private IConverter converter;
 
-        public StringCalculator(IOperator addOperator, IConverter converter)
+        public StringCalculator(IOperator addOperator)
         {
             this.addOperator = addOperator;
-            this.converter = converter;
         }
 
         public double Calculate(String input)

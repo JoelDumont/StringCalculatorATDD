@@ -16,7 +16,7 @@ namespace StringCalculatorATDD
         public void Background()
         {
             $"Given a Calculator to calculate the sum of two numbers".x(() =>
-                stringCalculator = new StringCalculator(new AddOperator(), new Converter()));
+                stringCalculator = new StringCalculator(new AddOperator()));
         }
 
         [Scenario]
